@@ -18,6 +18,9 @@ do
         "Radio Capital")
              	mplayer -playlist http://mp3.kataweb.it:8000/CAPITAL.m3u
                 ;;
+        "Radio Deejay")
+             	mplayer -playlist http://mp3.kataweb.it:8000/RadioDeejay.m3u
+                ;;
 	"Quit")
             	break
             	;;
