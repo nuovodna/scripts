@@ -21,6 +21,9 @@ do
         "Radio Deejay")
              	mplayer -playlist http://mp3.kataweb.it:8000/RadioDeejay.m3u
                 ;;
+        "Radio Città Aperta")
+             	mplayer -playlist http://stream.greynetweb.it/rca
+                ;;
 	"Quit")
             	break
             	;;
