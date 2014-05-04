@@ -15,7 +15,10 @@ do
         "Rai RadioTre")
 	    	mplayer -playlist http://www.listenlive.eu/rai3.m3u
             	;;
-        "Quit")
+        "Radio Capital")
+             	mplayer -playlist http://mp3.kataweb.it:8000/CAPITAL.m3u
+                ;;
+	"Quit")
             	break
             	;;
         *) echo invalid option;;
