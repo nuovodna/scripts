@@ -1,5 +1,5 @@
 #!/bin/bash
-# Bash Menu Script Example
+# mPlayer script to play italian FM Radio
 
 PS3='Please enter your choice: '
 options=("Rai RadioUno" "Rai RadioDue" "Rai RadioTre" "Quit")
