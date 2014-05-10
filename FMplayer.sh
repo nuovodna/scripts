@@ -2,11 +2,11 @@
 # mPlayer script to play italian FM Radio
 
 PS3='Please enter your choice: '
-options=("Rai RadioUno" "Rai RadioDue" "Rai RadioTre" "Quit")
+options=("Rai RadioUno" "Rai RadioDue" "Rai RadioTre" "Radio Capital" "Radio Deejay" "Radio Città Aperta" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
-	"Rai RadioUno")
+		"Rai RadioUno")
         	mplayer -playlist http://www.listenlive.eu/rai1.m3u    	
 		;;
         "Rai RadioDue")
@@ -24,7 +24,7 @@ do
         "Radio Città Aperta")
              	mplayer -playlist http://stream.greynetweb.it/rca
                 ;;
-	"Quit")
+		"Quit")
             	break
             	;;
         *) echo invalid option;;
