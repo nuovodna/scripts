@@ -1,0 +1,8 @@
+ [Desktop Entry]
+ Name=Xrandr
+ Exec=/usr/bin/xrandr --output eDP1 --scale 1.25x1.25 --panning 2400x1350
+ Icon=system-run
+ Path=
+ Terminal=false
+ Type=Application
+ X-GNOME-Autostart-Delay=10
