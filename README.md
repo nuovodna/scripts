@@ -32,3 +32,17 @@ Terminal=false
 Type=Application
 X-GNOME-Autostart-Delay=10
 ```
+
+1. Fix tearing due to xrandr scaling creating the file ```/etc/X11/xorg.conf.d/20-intel.conf``` with this content 
+
+```
+Section "Device"
+    Identifier "Intel Graphics"
+    Driver "intel"
+    Option "AccelMethod" "sna"
+    Option "TearFree" "true"
+EndSection
+```
+
+
+  
