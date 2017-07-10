@@ -20,7 +20,7 @@ Fix HDPi on Gnome
       gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "[{'Gdk/WindowScalingFactor', <2>}]"
     ```
     
-1. Autostart this script (put in ```.config/autostart/``` folder)
+1. Autostart this script (put in ```~/.config/autostart/``` folder)
 
 ```
 [Desktop Entry]
