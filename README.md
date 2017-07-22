@@ -3,6 +3,17 @@ Tips for installing Antergos on Dell Chromebook 13
 
 Various scripts to simplify life in an Unix world
 
+UEFI boot with Coreboot
+------------
+
+Boot a first time and EFI shell appears. Type reset and restart into a live cd where you have to mount EFI partition and then:
+
+```
+mv BOOT/BOOTX64.efi BOOT/BOOTX64.efiOLD
+cp antergos_grub/grubx64.efi BOOT/BOOTX64.efi
+```
+
+
 Replace LightDM with GdM
 ------------
 
@@ -29,6 +40,23 @@ Keyboard backlight
 ------------
 
 https://wiki.archlinux.org/index.php/Keyboard_backlight
+
+DNS
+------------
+
+Create a file named ``` /etc/resolv.conf.head ``` with this content:
+
+```
+# OpenNIC IPv4 nameservers (Worldwide Anycast)
+nameserver 185.121.177.177
+nameserver 185.121.177.53
+
+# OpenNIC IPv6 nameservers (Worldwide Anycast)
+nameserver 2a05:dfc7:5::53
+nameserver 2a05:dfc7:5::5353
+```
+
+
 
 Synaptics
 ------------
