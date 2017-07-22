@@ -3,11 +3,37 @@ Tips for installing Antergos on Dell Chromebook 13
 
 Various scripts to simplify life in an Unix world
 
+Replace LightDM with GdM
+------------
+
+```
+sudo pacman -S gdm
+sudo systemctl disable lightdm && sudo systemctl enable gdm
+```
+
+Gnome Extensions
+------------
+https://extensions.gnome.org/extension/945/cpu-power-manager/
+https://extensions.gnome.org/extension/723/pixel-saver/
+https://extensions.gnome.org/extension/307/dash-to-dock/
+
+Gnome theme
+------------
+```
+yaourt gtk-theme-minwaita
+```
+
+VimRC
+------------
+https://github.com/amix/vimrc
+
 Chromebook remap keys
 ------------
 Install with yaourt an useful package on AUR:
 
 ```
+gpg --recv-keys 0661D98FC933A145
+gpg --edit-key 0661D98FC933A145
 yaourt xkeyboard-config-chromebook
 ```
 
@@ -32,6 +58,10 @@ Terminal=false
 Type=Application
 X-GNOME-Autostart-Delay=10
 ```
+
+
+Fix tearing
+------------
 
 1. Fix tearing due to xrandr scaling creating the file ```/etc/X11/xorg.conf.d/20-intel.conf``` with this content 
 
