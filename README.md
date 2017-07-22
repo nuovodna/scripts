@@ -14,13 +14,35 @@ sudo systemctl disable lightdm && sudo systemctl enable gdm
 Gnome Extensions
 ------------
 https://extensions.gnome.org/extension/945/cpu-power-manager/
+
 https://extensions.gnome.org/extension/723/pixel-saver/
+
 https://extensions.gnome.org/extension/307/dash-to-dock/
 
 Gnome theme
 ------------
 ```
 yaourt gtk-theme-minwaita
+```
+
+
+Synaptics
+------------
+```
+        Option "VertEdgeScroll" "on"
+        Option "VertTwoFingerScroll" "on"
+        Option "HorizEdgeScroll" "on"
+        Option "HorizTwoFingerScroll" "on"
+        Option "CircularScrolling" "on"
+        Option "CircScrollTrigger" "2"
+        Option "EmulateTwoFingerMinZ" "40"
+        Option "EmulateTwoFingerMinW" "8"
+        Option "CoastingSpeed" "0"
+        Option "FingerLow" "30"
+        Option "FingerHigh" "50"
+        Option "MaxTapTime" "125"
+    Option      "VertScrollDelta"          "-111"
+    Option      "HorizScrollDelta"         "-111"
 ```
 
 VimRC
