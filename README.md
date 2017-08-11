@@ -112,12 +112,12 @@ Terminal=false
 Type=Application
 X-GNOME-Autostart-Delay=10
 ```
-
+In alternative
 
 Fix tearing
 ------------
 
-1. Fix tearing due to xrandr scaling creating the file ```/etc/X11/xorg.conf.d/20-intel.conf``` with this content 
+Fix tearing due to xrandr scaling creating the file ```/etc/X11/xorg.conf.d/20-intel.conf``` with this content 
 
 ```
 Section "Device"
