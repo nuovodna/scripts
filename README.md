@@ -112,7 +112,15 @@ Terminal=false
 Type=Application
 X-GNOME-Autostart-Delay=10
 ```
-In alternative
+In alternative you can set 
+
+1. Set font scaling factor to 1.5
+2. Set cursor size to 32 (with dconf-editor under org.gnome.desktop.interface)
+
+Keyboard backlight
+------------
+
+Follow this wiki: https://wiki.archlinux.org/index.php/Keyboard_backlight
 
 Fix tearing
 ------------
