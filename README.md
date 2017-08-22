@@ -40,10 +40,6 @@ Gnome theme
 yaourt gtk-theme-minwaita
 ```
 
-Keyboard backlight
-------------
-
-https://wiki.archlinux.org/index.php/Keyboard_backlight
 
 DNS
 ------------
