@@ -77,14 +77,14 @@ Synaptics
         Option "FingerLow" "30"
         Option "FingerHigh" "50"
         Option "MaxTapTime" "125"
-    Option      "VertScrollDelta"          "-111"
-    Option      "HorizScrollDelta"         "-111"
-    Option "ClickTime" "0"
-    Option "SingleTapTimeout" "0"
-                 Option "AccelFactor" "0.0400"
-              Option "MinSpeed" "0.7"
-              Option "MaxSpeed" "1.3"
-              Option "FastTaps" "1"
+        Option      "VertScrollDelta"          "-111"
+        Option      "HorizScrollDelta"         "-111"
+        Option "ClickTime" "0"
+        Option "SingleTapTimeout" "0"
+        #Option "AccelFactor" "0.0400"
+        #Option "MinSpeed" "0.7"
+        #Option "MaxSpeed" "1.3"
+        Option "FastTaps" "1"
 ```
 
 VimRC
