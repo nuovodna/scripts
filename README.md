@@ -30,6 +30,10 @@ https://extensions.gnome.org/extension/723/pixel-saver/
 
 https://extensions.gnome.org/extension/307/dash-to-dock/
 
+https://extensions.gnome.org/extension/1267/no-title-bar/  [before installation type this ```sudo pacman -S xorg-xprop```]
+
+
+
 Gnome theme
 ------------
 ```
