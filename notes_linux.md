@@ -3,6 +3,9 @@
 ```
 sudo mkfs.ntfs -F -Q -L ET32 /dev/sdc
 ```
+```
+sudo mkdosfs -n 'ET950' -F 32 -I /dev/sdb
+```
 
 ### Good PS1 variable
 
